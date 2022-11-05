@@ -1,0 +1,21 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+.container {
+  max-width: 1200px;
+  margin: -1px auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.main__button,
+.portfolio__button {
+  cursor: pointer;
+}
+
+.link.navigation__link--current {
+  color: var(--accent-color);
+}

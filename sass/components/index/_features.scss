@@ -1,0 +1,40 @@
+  .features {
+    padding-top: 94px;
+    padding-bottom: 47px;
+  
+    &__list {
+      display: flex;
+      gap: 30px;
+    }
+
+    &__item:first-child {
+    gap: 0;
+    }
+    
+    &__container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--background-head-color);
+      width: 270px;
+      height: 120px;
+    }
+
+    &__title {
+    padding-top: 30px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
+    }
+    
+    &__text {
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+    }
+  }
