@@ -1,8 +1,15 @@
 @import './utils/vars';
 @import './utils/hidden';
+@import './utils/mixins';
 
 @import './base/common';
 @import './base/reset';
+
+@import './components/container';
+@import './components/logo';
+@import './components/social-networks';
+@import './components/button';
+@import './components/section-all';
 
 @import './layouts/page-header';
 @import './layouts/page-footer';
@@ -13,4 +20,3 @@
 @import './components/index/our-works';
 @import './components/index/our-team';
 @import './components/index/regular-customers';
-

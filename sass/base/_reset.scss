@@ -9,27 +9,26 @@ h6 {
 }
 
 ul {
-  padding: 0;
   margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-a {
-  color: currentColor;
-  text-decoration: none;
-}
-
-.link {
-  text-decoration: none;
-  font-style: normal;
+  width: 100%;
 }
 
 .list {
   list-style: none;
-  font-style: normal;
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
 }
