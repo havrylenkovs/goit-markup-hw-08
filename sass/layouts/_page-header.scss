@@ -24,25 +24,6 @@
   margin-left: auto;
 }
 
-.menu-open__button {
-  display: block;
-  margin-left: auto;
-  border: none;
-  background-color: transparent;
-  @include tablet {
-    display: none;
-  }
-}
-
-.menu-open__icon {
-  fill: var(--secondary-text-color);
-  @include transition(fill);
-  &:hover,
-  &:focus {
-    fill: var(--accent-color);
-  }
-}
-
 .navigation__menu {
   display: none;
   @include tablet {
