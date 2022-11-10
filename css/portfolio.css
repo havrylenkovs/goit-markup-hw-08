@@ -587,6 +587,11 @@ img {
 
 .mobile-menu__list {
   margin-bottom: 70px;
+  gap: 32px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.175;
+  letter-spacing: 0.02em;
 }
 
 .mobile-menu__item:not(:last-child) {
@@ -601,11 +606,6 @@ img {
   line-height: 1.17px;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
-}
-.mobile-menu__link:hover, .mobile-menu__link:focus {
-  width: 100%;
-  border-bottom: 4px solid var(--accent-color);
-  border-radius: 2px;
 }
 
 .mobile-contacts {
