@@ -1,6 +1,6 @@
 .main {
   max-width: 480px;
-  height: 400px;
+  text-align: center;
   padding-top: 118px;
   padding-bottom: 118px;
   margin: 0 auto;
@@ -61,13 +61,7 @@
 
 .main__button {
   font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  color: var(--primary-white-color);
   background-color: var(--accent-color);
-  display: block;
-  margin: 0 auto;
   border-radius: 4px;
   border: none;
   min-width: 200px;

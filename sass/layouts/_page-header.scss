@@ -28,12 +28,7 @@
   display: none;
   @include tablet {
     display: flex;
-    margin-right: 84px;
   }
-}
-
-.navigation__list:not(:last-child) {
-  margin-right: 50px;
 }
 
 .navigation__link {
@@ -100,6 +95,7 @@
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.02em;
+  padding-left: 96px;
   color: var(--primary-text-color);
   @include transition(color);
 
@@ -111,6 +107,8 @@
   @include desktop {
     font-size: 14px;
     line-height: 1.14;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 }
 

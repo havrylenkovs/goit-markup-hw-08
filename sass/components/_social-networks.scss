@@ -14,16 +14,16 @@
 }
 
 .socials-networks__link {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 100%;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   color: #afb1b8;
-  @include transition;
-  @include transition(color);
-
+  transition: background-color var(--transition-duration) var(--cubic-bezier),
+    color var(--transition-duration) var(--cubic-bezier);
   &:hover,
   &:focus {
     background-color: var(--accent-color);

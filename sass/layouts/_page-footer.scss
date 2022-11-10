@@ -79,12 +79,10 @@
   @include tablet {
     width: 50%;
     margin-left: auto;
-    padding-top: 12px;
   }
   @include desktop {
     margin-right: 93px;
     text-align: left;
-    margin-bottom: 0;
   }
 }
 
@@ -111,7 +109,6 @@
   text-align: center;
   width: 100%;
   @include desktop {
-    padding-top: 12px;
     margin-left: auto;
     text-align: left;
   }
@@ -155,6 +152,7 @@
   margin: 0 auto;
   align-items: center;
   justify-content: center;
+  display: flex;
   @include transition;
   &:hover,
   &:focus {
