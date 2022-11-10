@@ -64,13 +64,16 @@
   display: block;
   @include tablet {
     display: block;
-    // flex-wrap: wrap;
+    flex-wrap: wrap;
     
   }
 }
 
 .contact__header {
   margin-left: auto;
+  @include desktop {
+    display: flex;
+  }
 }
 
 .contact__item {
@@ -90,8 +93,7 @@
 
 .contact__link {
   display: flex;
-  // justify-content: center;
-  // align-items: center;
+  
   flex-wrap: nowrap;
   font-weight: 500;
   font-size: 12px;
@@ -112,6 +114,8 @@
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 0;
+    justify-content: center;
+    align-items: center;
   }
 }
 
