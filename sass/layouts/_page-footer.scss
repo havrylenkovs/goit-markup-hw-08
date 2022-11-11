@@ -10,6 +10,7 @@
     flex-wrap: wrap;
     @include desktop {
       flex-wrap: nowrap;
+      align-items: baseline;
     }
   }
 }
@@ -136,6 +137,7 @@
   margin-bottom: 20px;
   padding-left: 16px;
   background-color: transparent;
+  color: var(--primary-white-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   @include tablet {
