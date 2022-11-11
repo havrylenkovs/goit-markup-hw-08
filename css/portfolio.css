@@ -216,6 +216,7 @@ img {
 
 .contact__header {
   margin-left: auto;
+  display: flex;
 }
 
 .navigation__menu {
@@ -266,6 +267,11 @@ img {
 @media screen and (min-width: 768px) {
   .contact {
     display: block;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contact {
+    display: flex;
   }
 }
 
